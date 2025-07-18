@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Consulta de CEP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="top-links">
+      <a href="https://github.com/jogalo-2" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/joão-gabriel-lourenço-rodrigues-771267364/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Consulta de CEP</h1>
+
+    <input type="text" id="cepInput" placeholder="Digite o CEP (somente números)" />
+    <button onclick="buscarCEP()">Buscar CEP</button>
+    <button onclick="alternarModo()" class="modo-btn">Modo Claro/Escuro</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
